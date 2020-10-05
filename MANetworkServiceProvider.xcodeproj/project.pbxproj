@@ -12,6 +12,8 @@
 		9B7F0FFE252ACF3F00E0A00F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B7F0FFD252ACF3F00E0A00F /* Assets.xcassets */; };
 		9B7F1001252ACF3F00E0A00F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B7F0FFF252ACF3F00E0A00F /* LaunchScreen.storyboard */; };
 		9B7F1011252AD02100E0A00F /* MAServiceProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B7F1010252AD02100E0A00F /* MAServiceProvider.swift */; };
+		9B7F1017252AD31500E0A00F /* TestServiceProviderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B7F1016252AD31500E0A00F /* TestServiceProviderViewController.swift */; };
+		9B7F101A252AE82100E0A00F /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B7F1019252AE82100E0A00F /* Response.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		9B7F1000252ACF3F00E0A00F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9B7F1002252ACF3F00E0A00F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9B7F1010252AD02100E0A00F /* MAServiceProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MAServiceProvider.swift; sourceTree = "<group>"; };
+		9B7F1016252AD31500E0A00F /* TestServiceProviderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestServiceProviderViewController.swift; sourceTree = "<group>"; };
+		9B7F1019252AE82100E0A00F /* Response.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Response.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +97,7 @@
 			isa = PBXGroup;
 			children = (
 				9B7F1010252AD02100E0A00F /* MAServiceProvider.swift */,
+				9B7F1019252AE82100E0A00F /* Response.swift */,
 			);
 			path = ServiceProvider;
 			sourceTree = "<group>";
@@ -100,6 +105,7 @@
 		9B7F1014252AD04900E0A00F /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				9B7F1016252AD31500E0A00F /* TestServiceProviderViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -174,7 +180,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9B7F101A252AE82100E0A00F /* Response.swift in Sources */,
 				9B7F1011252AD02100E0A00F /* MAServiceProvider.swift in Sources */,
+				9B7F1017252AD31500E0A00F /* TestServiceProviderViewController.swift in Sources */,
 				9B7F0FF5252ACF3E00E0A00F /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
